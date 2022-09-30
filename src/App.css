@@ -1,0 +1,344 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.cards{
+  display: grid;
+  list-style: none;
+}
+
+.header{
+  width: 100%;
+  background-color: white;
+  height: 100px;
+  position: fixed;
+  z-index: 2;
+  background-color: yellow;
+}
+
+.header h1{
+  margin-left: 12px;
+}
+
+.header p{
+  margin-left: 12px;
+}
+
+
+.option{
+  width: 100%;
+  height: auto;
+  background-color: yellow;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: -100px;
+}
+
+.select{
+  margin-left: 12px;
+  
+}
+
+.input{
+  margin-right: 20px;
+  position: relative;
+  z-index: 3;
+}
+
+.mycards{
+  width: 100%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  position: relative;
+  top: 160px;
+  
+ 
+}
+.show{
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  margin-top: 12px;
+  margin-left: 15%;
+  border: 1px solid gray;
+  border-radius: 12px 12px;
+  box-shadow: 2px 2px 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px #333;
+  background-image: url('./IMG/FondoPokemon.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.show h1{
+  margin-left: 12px;
+  position: relative;
+  z-index: 1;
+}
+.image{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 50px;
+  bottom: 40px;
+}
+.image img{
+  width: 250px;
+  height: auto;
+  margin-left: 15px;
+}
+
+.list{
+  list-style: none;
+  margin-left: 12px;
+  position: relative;
+  bottom: 80px;
+}
+
+.paginated{
+  margin-top: 120px;
+  margin-bottom: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paginated button{
+  margin-left: 12px;
+  width: 30px;
+  border-radius: 12px 12px;
+  border: 1px solid gray;
+}
+
+
+.home{
+  width: 300px;
+  height: 350px;
+  background-image: url('./IMG/Input.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 10%;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 12px 12px;
+  box-shadow: 2px 2px 10px;
+}
+
+.home h1{
+  text-align: center;
+}
+
+.home img{
+  margin-left: 50%;
+}
+
+.home label{
+  text-align: center;
+  font-size: 15px;
+  display: grid;
+}
+
+.home input{
+  margin-left: 20%;
+  border-radius: 12px 12px;border: 1px solid gray;
+}
+
+.home button{
+  position: relative;
+  right: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.pokeId{
+  width: 100%;
+  height: auto;
+  background-image: url('./IMG/Fondo.png');
+  overflow: hidden;
+}
+
+.section{
+  background-color: white;
+  width: 630px;
+  height: 300px;
+  margin-left: 140px;
+  margin-top: 80px;
+  margin-bottom: -80px;
+  border: 1px solid gray;
+  border-radius: 12px 12px;
+  box-shadow: 2px 2px 10px;
+}
+
+.section img{
+  width: 200px;
+  margin-left: 200px;
+  margin-bottom: 120px;
+  margin-top: -120px;
+}
+
+.desc{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.weight{
+  margin-left: 20px;
+  color: black;
+  margin-bottom: 100px;
+  margin-top: -100px;
+}
+.height{
+  margin-right: 15px;
+  color: black;
+  margin-bottom: 100px;
+  margin-top: -100px;
+}
+
+.section h1{
+  text-align: center;
+  color: black;
+  margin-top: 12px;
+  margin-bottom: 80px;
+  margin-top: -80px;
+}
+
+.section p{
+  margin-left: 300px;
+  margin-bottom: 80px;
+  margin-top: -80px;
+}
+
+.movements{
+  width: 300px;
+  height: auto;
+  margin-left: 800px;
+  margin-bottom: 650px;
+  margin-top: -650px;
+  border: 1px solid gray;
+  border-radius: 12px 12px;
+  box-shadow: 2px 2px 10px;
+  background-color: white;
+}
+
+.movements h2{
+  text-align: center;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 12px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.container h5{
+  margin-left: 10px;
+}
+
+
+.pokeId a{
+  text-align: center;
+  color: black;
+  margin-left: 200px;
+}
+
+.container h5{
+  margin-top: 2px;
+}
+
+.type{
+  width: 300px;
+  height: 170px;
+  border: 1px solid gray;
+  border-radius: 12px 12px;
+  margin-top: 100px;
+  margin-bottom: -100px;
+  margin-left: 140px;
+  background-color: white;
+}
+
+.type h2{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+.type button{
+  margin-top: 70px;
+  margin-left: 40px;
+  width: 100px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 12px 12px;
+  box-shadow: 2px 2px 10px;
+}
+
+.abilities{
+  width: 300px;
+  height: 170px;
+  margin-left: 470px;
+  margin-bottom: 170px;
+  margin-top: -170px;
+  border: 1px solid gray;
+  border-radius: 12px 12px;
+  background-color: white;
+}
+
+.abilities h2{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+.abilities button{
+  margin-top: 70px;
+  margin-left: 40px;
+  width: 100px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 12px 12px;
+  box-shadow: 2px 2px 10px;
+}
+
+.altar{
+  width: 300px;
+  height: 30px;
+  background-color: aqua;
+  position: relative;
+  left: 800px;
+  top: 80px;
+  border: 1px solid gray;
+  border-radius: 12px 12px;
+  background-color: white;
+  
+}
+
+.altar a{
+  position: relative;
+  right: 100px;
+  top: 4px;
+  text-decoration: none;
+}
+
+.pokemon{
+  width: 200px;
+  height: 100px;
+  margin-bottom: -100px;
+  margin-left: 130px;
+}
+
+.pokemon img{
+  width: 250px;
+}
+

@@ -74,7 +74,7 @@ const Pokemon = () => {
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Buscar por nombre"
+            placeholder="Digit a number or name"
           />
           <button onClick={SearchName}>Search</button>
         </div>

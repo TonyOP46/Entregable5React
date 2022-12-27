@@ -9,9 +9,11 @@ const PokemonIds = () => {
   const [namePokemon, setNamePokemon] = useState({});
 
   useEffect(() => {
+   if (id) {
     axios
-      .get(`https://pokeapi.co/api/v2/pokemon/${id}/`)
-      .then((res) => setNamePokemon(res.data));
+    .get(`https://pokeapi.co/api/v2/pokemon/${id}/`)
+    .then((res) => setNamePokemon(res.data));
+   }
   }, []);
 
   console.log(namePokemon);
